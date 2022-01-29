@@ -1,3 +1,4 @@
+# %%
 import pyodbc
 import pandas as pd
 
@@ -25,3 +26,4 @@ def get_ax_lead_times():
         data[row[ITEMID]] = row[LEADTIME]
 
     return 
+
